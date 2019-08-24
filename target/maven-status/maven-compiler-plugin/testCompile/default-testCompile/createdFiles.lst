@@ -1,0 +1,10 @@
+com\discovery\utils\ConfigUtils.class
+com\discovery\utils\Listener_Utils.class
+com\discovery\utils\DriverManager.class
+com\discovery\tests\CheckRecommendedVideosTest.class
+com\discovery\utils\BrowserManager.class
+com\discovery\utils\LocatorUtils$1.class
+com\discovery\utils\BaseUtils.class
+com\discovery\pages\DiscoveryHomePage.class
+com\discovery\utils\ConfigUtils$ElementLocator.class
+com\discovery\utils\LocatorUtils.class

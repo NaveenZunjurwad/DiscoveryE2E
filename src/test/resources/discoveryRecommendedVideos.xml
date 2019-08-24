@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DiscoveryE2E">
+	<parameter name="OS"			value="WINDOWS"></parameter>
+	<parameter name="browser"       value="CHROME"></parameter>
+  	<parameter name="platForm"      value="WEB"></parameter>
+  	<parameter name="url"       value="https://www.discovery.com"></parameter>
+  <test name="Test">
+  	<groups>
+  	  <run>
+  		<include name ="recommenedVideo"/>
+  	  </run>
+  	</groups>
+  	<packages>
+  	<package name="com.discovery.*"></package>
+  	</packages>
+  </test> <!-- Test -->
+  
+   <listeners>
+	 <listener class-name="com.discovery.utils.Listener_Utils"/>
+   </listeners>
+ 
+</suite> <!-- Suite -->

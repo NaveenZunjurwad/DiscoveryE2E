@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DiscoveryE2E]">
+  <parameter name="OS" value="WINDOWS"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="platForm" value="WEB"/>
+  <parameter name="url" value="https://www.discovery.com"/>
+  <listeners>
+    <listener class-name="com.discovery.utils.Listener_Utils"/>
+  </listeners>
+  <test name="Test">
+    <groups>
+      <run>
+        <include name="recommenedVideo"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.discovery.*"/>
+    </packages>
+    <classes>
+      <class name="com.discovery.pages.DiscoveryHomePage"/>
+      <class name="com.discovery.tests.CheckRecommendedVideosTest"/>
+      <class name="com.discovery.utils.BaseUtils"/>
+      <class name="com.discovery.utils.BrowserManager"/>
+      <class name="com.discovery.utils.ConfigUtils$ElementLocator"/>
+      <class name="com.discovery.utils.ConfigUtils"/>
+      <class name="com.discovery.utils.DriverManager"/>
+      <class name="com.discovery.utils.Listener_Utils"/>
+      <class name="com.discovery.utils.LocatorUtils$1"/>
+      <class name="com.discovery.utils.LocatorUtils"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [DiscoveryE2E] -->
