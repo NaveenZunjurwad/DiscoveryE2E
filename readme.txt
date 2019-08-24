@@ -1,4 +1,4 @@
-This project consists of the test case which includes one of the scenario for "www.Discovery.com" site.
+This project contains a test case which will test one of the scenario for "www.Discovery.com" site.
 
 Steps covered in the test case:
 ===============================
